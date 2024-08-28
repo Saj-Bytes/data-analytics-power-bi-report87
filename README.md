@@ -53,5 +53,35 @@ Building the Customer Detail Page
 
 ![Current pbix file](https://github.com/user-attachments/assets/fd4cba4c-83f3-465d-8e44-bad499fde3b0)
 
+## Milestone 6
+- Created card visuals for Total Revenue, Total Orders and Total Profit 
+![Cards](https://github.com/user-attachments/assets/a543d73a-bda7-4fb3-8b30-515dfeec5ddf)
 
+- Line chart for Total Revenue against Date, where we can filter up to Month level
+
+- 2 Donut charts:
+    - one for Total Revenue broken by country from store table
+    - one for Total Revenue broken by store type from store table
+
+- Bar chart for Total customers by Product Category 
+
+- Adding KPI Visuals:
+    - Created new measures for the following:
+        - Previous Quarter Profit
+        - Previous Quarter Revenue
+        - Previous Quarter Orders
+        - Target Profit, Target Revenue and Target Orders which were all equal to 5% growth in each measure compared to the previous quarter, so doing 1.05 * Previous Quarters measure for each.
+
+![Previous Quarter Calculation e.g.](https://github.com/user-attachments/assets/d20cabcb-512b-42ea-89d1-b7855f1bae49)
+        
+![Target Calculation e.g.](https://github.com/user-attachments/assets/b517f945-bcdc-4d5c-b3f8-92ce7bce2a29)
+
+    - Created the KPI Visuals for each target
+        - Value: held the total for each measure
+        - Trend Axis: start of Quarter for all
+        - Target: target measure we created for each
+
+![KPI Visual card e.g.](https://github.com/user-attachments/assets/ca19d50d-3767-4292-9340-c54404b4c670)
+
+![current pbix file](https://github.com/user-attachments/assets/760bc291-2f8c-4ce1-9062-87296fed2810)
 
