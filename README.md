@@ -25,4 +25,31 @@
 ### Current Data Model:
 ![DataModel](https://github.com/user-attachments/assets/137b6d9e-e9d0-4d8a-8110-7a044a832ee9)
 
-..
+
+## Milestone 4 & 5
+Building the Customer Detail Page
+- First created cards:
+    - Unique Customer: Total Customer measure we created. 
+    - Revenue Per Customer: Created this measure by doing Total Revenue / Total Customers 
+
+![Card Visuals](https://github.com/user-attachments/assets/33323d15-619b-4c1b-807a-c16dbd179bc5)
+
+- Created some charts:
+    - Donut chart: showing total customers for each country by filtering total customer measure by the country column from the users table.
+    - Column chart: showing number of customers for each product category by filtering total customer measure by the category column from the products table
+    - Line chart: Total customers against Date hierarchy
+        - Adding a trend line and forecast for the next 10 periods with a 95% confidence interval
+
+![Charts](https://github.com/user-attachments/assets/002be664-2943-4be0-a571-85554f1aa3c3)
+
+- Created a New table for top 20 customers:
+    - Top 20 by revenue with customers full name, revenue and number of orders
+    - Displaying these metrics on card visuals for the top customer only
+    - Added a date slicer to filter by year
+
+![New table](https://github.com/user-attachments/assets/ad8e9fab-6b97-4855-a64d-b6f7030ce476)
+
+![Top Customer Cards](https://github.com/user-attachments/assets/ff6e946c-42a6-435f-a770-e816e5620c5a)
+
+
+
