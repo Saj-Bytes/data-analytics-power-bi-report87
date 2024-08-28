@@ -51,5 +51,7 @@ Building the Customer Detail Page
 
 ![Top Customer Cards](https://github.com/user-attachments/assets/ff6e946c-42a6-435f-a770-e816e5620c5a)
 
+![Current pbix file](https://github.com/user-attachments/assets/fd4cba4c-83f3-465d-8e44-bad499fde3b0)
+
 
 
