@@ -86,7 +86,7 @@ Building the Customer Detail Page
 ![current pbix file](https://github.com/user-attachments/assets/760bc291-2f8c-4ce1-9062-87296fed2810)
 
 
-## Milestone 7 
+## Milestone 7 - Create  a Product Detail Page
 
 - Added gauges to show the current quarterly performance in comparison to the target quarterly performance
 - Created new measures for quarterly targets and for the gaps between target and current 
@@ -115,3 +115,17 @@ Building the Customer Detail Page
 Current state of report
 ![report](https://github.com/user-attachments/assets/852e2bb6-443b-409d-afe3-a0240ad1f4c8)
 
+
+## Milestone 8 - Stores Map page
+- Adding a map visual for the stores around the world with a slicer so the user can choose the country store.
+
+![store map](https://github.com/user-attachments/assets/8bb32951-6641-4fd1-82ca-1d214d2508ab)
+
+- Created a store drillthrough page to check on the progress and get a summary of a given store.
+    - we have metrics such as top 5, current profit and target, previous year profit target and total orders by category
+
+![store drillthrough](https://github.com/user-attachments/assets/b01e8719-1e11-4ca9-9117-5316bb21352a)
+
+- created a store tooltip page - this allows the user to hover over the store map page and see what we have on this page i.e. see the gaugae yearly profit for this store
+
+![map tooltip](https://github.com/user-attachments/assets/51410283-b87b-4fd9-a02b-dc27109cfc6d)
