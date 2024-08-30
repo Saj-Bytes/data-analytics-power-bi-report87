@@ -129,3 +129,16 @@ Current state of report
 - created a store tooltip page - this allows the user to hover over the store map page and see what we have on this page i.e. see the gaugae yearly profit for this store
 
 ![map tooltip](https://github.com/user-attachments/assets/51410283-b87b-4fd9-a02b-dc27109cfc6d)
+
+
+## Milestone 9 - Navigation
+- Fixed cross filtering - this was so that some of the graphs would not be affected by other cards/visuals on the same page
+
+- Added navigation icons
+    - added buttons to the navigation bar
+    - added on hover so the buttons change colour when hovering over
+    - added navigation so each button takes you to a different page in the report
+
+![navigation buttons](https://github.com/user-attachments/assets/0e39ef58-e15b-441e-a9f2-aa34cd667d54)
+
+
