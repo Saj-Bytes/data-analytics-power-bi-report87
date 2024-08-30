@@ -85,3 +85,33 @@ Building the Customer Detail Page
 
 ![current pbix file](https://github.com/user-attachments/assets/760bc291-2f8c-4ce1-9062-87296fed2810)
 
+
+## Milestone 7 
+
+- Added gauges to show the current quarterly performance in comparison to the target quarterly performance
+- Created new measures for quarterly targets and for the gaps between target and current 
+
+![gauges](https://github.com/user-attachments/assets/5dfd4c66-90c3-4073-8244-9612a6d6bc05)
+
+- Created new cards to show the filter state of the slicers
+![filter cards](https://github.com/user-attachments/assets/4788507a-1b9c-4a33-9c30-0a3de589f43d)
+
+- Added an area chart to show performance of different product categories in terms of revenue over time
+![area chart](https://github.com/user-attachments/assets/eb28ed92-9b1c-4d77-928d-b9f26dad26b8)
+
+- Added a top 10 products table 
+![top 10 products](https://github.com/user-attachments/assets/a15b7da8-a88c-4150-8ef7-ca7aedc236bb)
+
+- Added a scatter graph to see which product ranges are top selling and profitable
+![scatter graph](https://github.com/user-attachments/assets/461ae6d6-2e0a-41b2-811f-866edf2dc89e)
+
+- Created a pop-out toolbar 
+    - created a larger navigation bar that would hold the slicers
+    - added 2 slicers for products category and stores country
+    - used the bookmarks pane to create bookmarks in the different states of the page. i.e. one when the toolbar is closed and another when it is open 
+    - added action buttons to the filter icon and back button icon to configure the bookmarks we created
+![pop-out toolbar](https://github.com/user-attachments/assets/75e853f7-2616-47fe-95d0-bf91a750d3d6)
+
+Current state of report
+![report](https://github.com/user-attachments/assets/852e2bb6-443b-409d-afe3-a0240ad1f4c8)
+
