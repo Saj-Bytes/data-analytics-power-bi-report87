@@ -1,0 +1,6 @@
+"table_catalog","table_schema","table_name","table_type","self_referencing_column_name","reference_generation","user_defined_type_catalog","user_defined_type_schema","user_defined_type_name","is_insertable_into","is_typed","commit_action"
+"postgres","public","orders_powerbi","BASE TABLE","","","","","","YES","NO",""
+"postgres","public","dim_products","BASE TABLE","","","","","","YES","NO",""
+"postgres","public","dim_stores","BASE TABLE","","","","","","YES","NO",""
+"postgres","public","dim_users","BASE TABLE","","","","","","YES","NO",""
+"postgres","public","temp1","BASE TABLE","","","","","","YES","NO",""

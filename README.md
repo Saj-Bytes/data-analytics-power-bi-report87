@@ -142,3 +142,39 @@ Current state of report
 ![navigation buttons](https://github.com/user-attachments/assets/0e39ef58-e15b-441e-a9f2-aa34cd667d54)
 
 
+
+## Milestone 10 - Querying the database
+- using the SQL database that had similar tables to the dataset we were working with on PowerBI, in order to extract data insights
+
+Some of the questions we answered in the query
+1. How many staff are there in all of the UK stores?
+    - Using an easy SELECT COUNT statement
+
+2. Which month in 2022 has had the highest revenue?
+    - extracted the year and month from the 'Order Date' column
+    - joining the products table and orders table on the common 'product code' column in order to work out revenue
+    using 'product quantity' and 'sale price'
+    - grouping by the year month 
+    - ordering by revenue
+
+
+3. Which German store type had the highest revenue for 2022?
+    - joining all 3 tables together
+    - working out the revenue as above
+    - filtering by country code 'DE' which represents Germany
+    - grouping by the 'store code' and 'address' to filter to the specific store
+    - ordering by revenue and limiting to 1 to get the highest
+
+4. Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders
+
+    - worked out total sales(revenue) as above for each store type by grouping with store type
+    - worked out % of total sales by dividing the totla sales for each store type by the total sales
+    - getting the count of the total number of orders for each store type
+    - create a view with this data
+
+5. Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+
+    - joining all 3 tables in order to work out the profit 
+    - working out profit by doing ('sale price' - 'cost price') x 'product quantity'
+    - filtering by country region being Wiltshire and year being 2021
+    - grouping by category and ordering by profit
