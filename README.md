@@ -1,14 +1,14 @@
 # Data Analytics PowerBI Report
 
 ## Description:
-- Given some sales data, aim was to transform and derive some actionable insights for better decision making.
+- Given a large amount of sales data from different sources from a medium-sized retailer that wanted to improve their business intelligence, the aim was to transform and derive some actionable insights for better decision making.
 - Aim was to design a Quarterly report using PowerBI
     - involved extracting and transforming data from various sources
     - designing a data model with a star-based schema
     - construting a multi-page report with high-level business summaries for different stakeholders with insights on factors such as:
-        - highest value customers segemnted by region
-        - detailed analysis of top-performing products categorised by type against sales targets
-        - visual map that highlights the performance metrics of the retail outlets across different areas
+        - Highest value customers segemnted by region
+        - Detailed analysis of top-performing products categorised by type against sales targets
+        - Visual map that highlights the performance metrics of the retail outlets across different areas
 
 
 
